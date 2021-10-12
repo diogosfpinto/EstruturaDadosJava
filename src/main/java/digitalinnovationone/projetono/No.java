@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.diogosfpinto.projetono;
+package digitalinnovationone.projetono;
 
 /**
  * Classe No que aceita que aceita o conteudo de qualquer tipo genérico.
