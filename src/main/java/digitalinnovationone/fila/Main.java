@@ -10,10 +10,10 @@ public class Main {
         
         Fila minhaFila = new Fila();
         
-        minhaFila.enqueue(new No("primeiro"));
-        minhaFila.enqueue(new No("segundo"));
-        minhaFila.enqueue(new No("terceiro"));
-        minhaFila.enqueue(new No("quarto"));
+        minhaFila.enqueue("primeiro");
+        minhaFila.enqueue("segundo");
+        minhaFila.enqueue("terceiro");
+        minhaFila.enqueue(1);
         
         System.out.println(minhaFila);
         
@@ -21,7 +21,7 @@ public class Main {
         
         System.out.println(minhaFila.dequeue());
         
-        minhaFila.enqueue(new No("ultimo"));
+        minhaFila.enqueue("ultimo");
         
         System.out.println(minhaFila.first());
         
