@@ -8,12 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
         
-        Fila minhaFila = new Fila();
+        Fila<String> minhaFila = new Fila<>();
         
         minhaFila.enqueue("primeiro");
         minhaFila.enqueue("segundo");
         minhaFila.enqueue("terceiro");
-        minhaFila.enqueue(1);
         
         System.out.println(minhaFila);
         
